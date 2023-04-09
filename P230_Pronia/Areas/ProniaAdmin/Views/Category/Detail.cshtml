@@ -1,0 +1,36 @@
+﻿@model Category
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Detail</h1>
+
+<h4>Category</h4>
+<hr />
+
+
+
+<div class="row">
+    <div class="col-md-4" style="width:100%">
+        <form method="post" style="width:100%">
+          @*  <div class="form-group">
+                <label class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span class="text-danger" asp-validation-for="Name"></span>
+            </div>*@
+            
+              <p style="text-align:center">@Model.Name</p>
+            
+        </form>
+    </div>
+</div>
+
+
+<div style="width:100%">
+    <div style="text-align:center">
+
+
+    <a  asp-action="Index">Back to List</a>
+    </div>
+</div>
