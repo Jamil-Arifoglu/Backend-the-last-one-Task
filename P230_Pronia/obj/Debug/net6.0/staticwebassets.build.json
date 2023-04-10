@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "e98xGftuRJHY0N5ZjQjBdvJtsPOPDe1wWdan1lzxu7o=",
+  "Hash": "TKjQksaoOYdMeF8cdO70MSa03NU28uCsoz5u84Tb13s=",
   "Source": "P230_Pronia",
   "BasePath": "_content/P230_Pronia",
   "Mode": "Default",
@@ -3808,23 +3808,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\1-1.png"
     },
     {
-      "Identity": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\assets\\images\\website-images\\1-10-270x300.jpg",
-      "SourceId": "P230_Pronia",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\",
-      "BasePath": "_content/P230_Pronia",
-      "RelativePath": "assets/images/website-images/1-10-270x300.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\1-10-270x300.jpg"
-    },
-    {
       "Identity": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\assets\\images\\website-images\\1-11-270x300.jpg",
       "SourceId": "P230_Pronia",
       "SourceType": "Discovered",
@@ -4879,6 +4862,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\4Leaves.png"
     },
     {
+      "Identity": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\assets\\images\\website-images\\506laptop wallpaper _ Tumblr.png",
+      "SourceId": "P230_Pronia",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\",
+      "BasePath": "_content/P230_Pronia",
+      "RelativePath": "assets/images/website-images/506laptop wallpaper _ Tumblr.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\506laptop wallpaper _ Tumblr.png"
+    },
+    {
       "Identity": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\assets\\images\\website-images\\540Minimalist Wallpaper Dump 400+ Images.png",
       "SourceId": "P230_Pronia",
       "SourceType": "Discovered",
@@ -5013,6 +5013,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\660Free Spring Desktop Images _ Sonrisa Studio.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\assets\\images\\website-images\\675Free Spring Desktop Images _ Sonrisa Studio.jpg",
+      "SourceId": "P230_Pronia",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\",
+      "BasePath": "_content/P230_Pronia",
+      "RelativePath": "assets/images/website-images/675Free Spring Desktop Images _ Sonrisa Studio.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\675Free Spring Desktop Images _ Sonrisa Studio.jpg"
     },
     {
       "Identity": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\assets\\images\\website-images\\679Free Spring Desktop Images _ Sonrisa Studio.jpg",
@@ -5202,6 +5219,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\79130+ Beautiful Minimalist Desktop Wallpapers.jpg"
     },
     {
+      "Identity": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\assets\\images\\website-images\\79730+ Beautiful Minimalist Desktop Wallpapers.jpg",
+      "SourceId": "P230_Pronia",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\",
+      "BasePath": "_content/P230_Pronia",
+      "RelativePath": "assets/images/website-images/79730+ Beautiful Minimalist Desktop Wallpapers.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\79730+ Beautiful Minimalist Desktop Wallpapers.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\assets\\images\\website-images\\81030+ Beautiful Minimalist Desktop Wallpapers.jpg",
       "SourceId": "P230_Pronia",
       "SourceType": "Discovered",
@@ -5304,6 +5338,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\900Leaves.png"
     },
     {
+      "Identity": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\assets\\images\\website-images\\905Leaves.png",
+      "SourceId": "P230_Pronia",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\",
+      "BasePath": "_content/P230_Pronia",
+      "RelativePath": "assets/images/website-images/905Leaves.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\905Leaves.png"
+    },
+    {
       "Identity": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\assets\\images\\website-images\\911Free Spring Desktop Images _ Sonrisa Studio.jpg",
       "SourceId": "P230_Pronia",
       "SourceType": "Discovered",
@@ -5353,6 +5404,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\953Harry Potter 7 Desktop by NewRandombell on DeviantArt (2).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\assets\\images\\website-images\\991Leaves.png",
+      "SourceId": "P230_Pronia",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\",
+      "BasePath": "_content/P230_Pronia",
+      "RelativePath": "assets/images/website-images/991Leaves.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\991Leaves.png"
     },
     {
       "Identity": "C:\\Users\\Nermin\\Desktop\\Backend-secound-task-master\\Backend-secound-task-master\\P230_Pronia\\wwwroot\\assets\\images\\website-images\\car.png",

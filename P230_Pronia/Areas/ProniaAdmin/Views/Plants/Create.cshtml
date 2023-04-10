@@ -108,54 +108,45 @@
 @section Scripts{
 
     <script>
-        var addButton = document.querySelector(".addButton");
-        addButton.addEventListener("click", function () {
+        function addItem() {
             var sizesSelect = document.getElementById("Sizes");
             var selectedSize = sizesSelect.value;
             var colorsSelect = document.getElementById("Colors");
             var selectedColor = colorsSelect.value;
-
             var quantityInput = document.getElementById("Quantity");
             var quantity = quantityInput.value;
             var colorSizeQuantityInput = document.getElementById("ColorSizeQuantity");
             var currentColorSizeQuantity = colorSizeQuantityInput.value;
-            var sizesSelect = document.getElementById("Sizes");
-            var selectedSize = sizesSelect.value;
-            var colorsSelect = document.getElementById("Colors");
-            var selectedColor = colorsSelect.value;
-            var quantityInput = document.getElementById("Quantity");
-            var quantity = quantityInput.value;
+
             if (quantity <= 0) {
                 alert("Quantity!!!");
                 quantity = 1;
-
             }
             if (quantity.trim() == "") {
                 quantity = "1";
             }
-
 
             var newColorSizeQuantity = selectedSize + "-" + selectedColor + "-" + quantity;
             if (currentColorSizeQuantity.length > 0) {
                 newColorSizeQuantity = currentColorSizeQuantity + "," + newColorSizeQuantity;
             }
 
-
             colorSizeQuantityInput.value = newColorSizeQuantity;
             console.log(colorSizeQuantity);
-        });
+        }
 
-        var btnPlus = document.querySelector(".btnPlus");
-        
+        function addNewItem() {
+            var btnPlus = document.querySelector(".btnPlus");
             btnPlus.addEventListener("click", function () {
-               
                 var parentElement = this.parentElement;
                 var clonedParent = parentElement.cloneNode(true);
-                console.log(clonedParent)
-            parentElement.after(clonedParent)
+                var clonedButton = clonedParent.querySelector(".addButton");
+                clonedButton.addEventListener("click", addItem);
+                parentElement.after(clonedParent);
             });
-      
+        }
 
+        addNewItem();
 
 
     </script>
