@@ -47,17 +47,17 @@
             <div>
                 <div class="form-group" style="width:50px;display:inline-block">
                     <label class="control-label"></label>
-                    <select cass="form-control " class="Sizes" asp-items="@(new SelectList( ViewBag.Sizes,"Id","Name"))"></select>
+                    <select cass="form-control " id="Sizes" asp-items="@(new SelectList( ViewBag.Sizes,"Id","Name"))"></select>
                     <span class="text-danger"></span>
                 </div>
 
                 <div class="form-group" style="width:70px; display:inline-block">
                     <label class="control-label"></label>
-                    <select class="form-control " class="Colors" asp-items="@(new SelectList( ViewBag.Colors,"Id","Name"))"></select>
+                    <select class="form-control " id="Colors" asp-items="@(new SelectList( ViewBag.Colors,"Id","Name"))"></select>
 
                 </div>
                 <div class="form-group" style="width:200px;height:10px;display:inline-block">
-                    <input type="number" value="1" class="form-control" class="Quantity" />
+                    <input type="number" value="1" class="form-control" id="Quantity" />
 
                 </div>
                 <button type="button" class="btn btn-danger btnPlus">+</button>
@@ -66,7 +66,7 @@
             </div>
             <div class="form-group">
 
-                <input asp-for="ColorSizeQuantity" type="hidden" autocomplete="off" class="form-control ColorSizeQuantity" />
+                <input asp-for="ColorSizeQuantity" type="hidden" autocomplete="off" class="form-control" />
                 <span asp-validation-for="ColorSizeQuantity" class="text-danger"></span>
             </div> <div>
                 @foreach (var colorSize in Model.PlantSizeColors)
@@ -202,13 +202,13 @@
 @section Script{
     <script>
         function addItem() {
-            var sizesSelect = document.querySelector(".Sizes");
+            var sizesSelect = document.getElementById("Sizes");
             var selectedSize = sizesSelect.value;
-            var colorsSelect = document.querySelector(".Colors");
+            var colorsSelect = document.getElementById("Colors");
             var selectedColor = colorsSelect.value;
-            var quantityInput = document.querySelector(".Quantity");
+            var quantityInput = document.getElementById("Quantity");
             var quantity = quantityInput.value;
-            var colorSizeQuantityInput = document.querySelector(".ColorSizeQuantity");
+            var colorSizeQuantityInput = document.getElementById("ColorSizeQuantity");
             var currentColorSizeQuantity = colorSizeQuantityInput.value;
 
             if (quantity <= 0) {
